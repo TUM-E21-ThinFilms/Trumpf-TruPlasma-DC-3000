@@ -20,7 +20,7 @@ class TruPlasmaDC3000Driver(Driver):
         
         self.thread = None
         
-        super(TruPlasmaDC3000Driverexit(), self).__init__(transport, protocol)
+        super(TruPlasmaDC3000Driver, self).__init__(transport, protocol)
 
     def send_message(self, message):
         return self._protocol.query(self._transport, message)
