@@ -1,4 +1,4 @@
-from dcsputter import TruPlasmaDC3000Driver
+from driver import TruPlasmaDC3000Driver
 from protocol import TruPlasmaDC3000Protocol
 from slave.transport import Serial
 import logging
