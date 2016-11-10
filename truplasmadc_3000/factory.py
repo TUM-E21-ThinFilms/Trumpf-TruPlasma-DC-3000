@@ -20,4 +20,4 @@ class TruPlasmaDC3000Factory:
             logger = self.get_logger()
                     
         protocol = TruPlasmaDC3000Protocol(0xFFFF, 0x0000, logger)
-        return TruPlasmaDC3000Driver(Serial(device, 38400, 8, 'N', 1), protocol)
+        return TruPlasmaDC3000Driver(Serial(device, 38400, 8, 'N', 1, 1), protocol)
