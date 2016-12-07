@@ -15,7 +15,7 @@
 
 from driver import TruPlasmaDC3000Driver
 from protocol import TruPlasmaDC3000Protocol
-from slave.transport import Serial
+from e21_util.transport import Serial
 import logging
 
 class TruPlasmaDC3000Factory:
