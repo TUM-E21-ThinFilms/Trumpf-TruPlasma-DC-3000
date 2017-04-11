@@ -16,7 +16,7 @@
 from driver import TruPlasmaDC3000Driver
 from protocol import TruPlasmaDC3000Protocol
 from e21_util.transport import Serial
-from e21_util.logging import get_sputter_logger
+from e21_util.log import get_sputter_logger
 
 class TruPlasmaDC3000Factory:
     
