@@ -51,7 +51,7 @@ class TruPlasmaDC3000Driver(Driver):
         msg.set_bits(bits) # Power On, PC Control On, Profibus Control On, Display Control On
         
         return self.send_message(msg)
-    
+
     """
     def _set_power_single(self, power, current, voltage):
         msg = NormalMessage()
